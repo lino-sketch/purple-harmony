@@ -9,7 +9,7 @@ import { CheckCircle2, Calendar, Music, Sparkles } from "lucide-react";
 interface BookingModalProps {
   isOpen: boolean;
   onClose: () => void;
-  preselectedEntertainer?: string;
+  preselectedEntertainer?: string | undefined;
 }
 
 export function BookingModal({ isOpen, onClose, preselectedEntertainer }: BookingModalProps) {
