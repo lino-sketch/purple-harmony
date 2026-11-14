@@ -30,7 +30,9 @@ export function HeroSection({ onBookClick }: HeroSectionProps) {
             </h1>
 
             <p className="text-lg sm:text-xl text-purple-100/90 font-light max-w-2xl leading-relaxed">
-              Purple Harmony Group connects aged-care lifestyle coordinators with professional singers, musicians, and performers who deliver warmth, nostalgia, dignity, and radiant smiles.
+              Purple Harmony Group connects aged-care lifestyle coordinators with professional
+              singers, musicians, and performers who deliver warmth, nostalgia, dignity, and radiant
+              smiles.
             </p>
 
             <div className="pt-2 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
@@ -81,11 +83,10 @@ export function HeroSection({ onBookClick }: HeroSectionProps) {
                   <span className="inline-block px-2.5 py-1 rounded bg-purple-600/80 text-[11px] font-semibold tracking-wider uppercase mb-2">
                     Live in Performance
                   </span>
-                  <h3 className="text-xl font-serif font-bold">
-                    Pure Joy, Memory & Connection
-                  </h3>
+                  <h3 className="text-xl font-serif font-bold">Pure Joy, Memory & Connection</h3>
                   <p className="text-sm text-purple-200 mt-1">
-                    Lino Ettia leading an interactive sing-along with residents, family members & care staff.
+                    Lino Ettia leading an interactive sing-along with residents, family members &
+                    care staff.
                   </p>
                 </div>
               </div>

@@ -28,7 +28,8 @@ export function EntertainersSection({ onBookEntertainer }: EntertainersSectionPr
             Meet the Voices Behind the Joy
           </h2>
           <p className="text-muted-foreground text-base">
-            Singers, instrumentalists, and variety acts who understand how to captivate aged care audiences and bring timeless songbooks to life.
+            Singers, instrumentalists, and variety acts who understand how to captivate aged care
+            audiences and bring timeless songbooks to life.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-2 pt-2">
@@ -97,9 +98,7 @@ export function EntertainersSection({ onBookEntertainer }: EntertainersSectionPr
                         {entertainer.experienceYears}+ yrs exp
                       </span>
                     </div>
-                    <p className="text-xs font-semibold text-primary">
-                      {entertainer.role}
-                    </p>
+                    <p className="text-xs font-semibold text-primary">{entertainer.role}</p>
                     <p className="text-xs text-muted-foreground leading-relaxed line-clamp-3">
                       {entertainer.bio}
                     </p>

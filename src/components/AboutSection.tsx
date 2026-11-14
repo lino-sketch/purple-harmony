@@ -23,14 +23,13 @@ export function AboutSection({ onBookLino }: AboutSectionProps) {
               <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-background/90 backdrop-blur-md border border-border shadow-lg">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h4 className="font-serif font-bold text-lg text-foreground">
-                      Lino Ettia
-                    </h4>
-                    <p className="text-xs text-primary font-medium">
-                      Founder & Artistic Director
-                    </p>
+                    <h4 className="font-serif font-bold text-lg text-foreground">Lino Ettia</h4>
+                    <p className="text-xs text-primary font-medium">Founder & Artistic Director</p>
                   </div>
-                  <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
+                  <Badge
+                    variant="secondary"
+                    className="bg-primary/10 text-primary border-primary/20"
+                  >
                     20+ Yrs Performance
                   </Badge>
                 </div>
@@ -49,11 +48,17 @@ export function AboutSection({ onBookLino }: AboutSectionProps) {
             </h2>
 
             <p className="text-muted-foreground leading-relaxed">
-              Founded by acclaimed performer <strong className="text-foreground">Lino Ettia</strong>, Purple Harmony Group was born from a deep understanding of the transformative power of music in aged care. Music bypasses cognitive barriers, reawakens long-lost memories, and creates moments of sparkling joy for residents and their families.
+              Founded by acclaimed performer <strong className="text-foreground">Lino Ettia</strong>
+              , Purple Harmony Group was born from a deep understanding of the transformative power
+              of music in aged care. Music bypasses cognitive barriers, reawakens long-lost
+              memories, and creates moments of sparkling joy for residents and their families.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              We bridge the gap between world-class live entertainment and the nuanced, sensitive needs of residential aged care and memory support units. Every performer on our roster is handpicked for their vocal mastery, empathy, respectful engagement, and joyful spirit.
+              We bridge the gap between world-class live entertainment and the nuanced, sensitive
+              needs of residential aged care and memory support units. Every performer on our roster
+              is handpicked for their vocal mastery, empathy, respectful engagement, and joyful
+              spirit.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
@@ -61,14 +66,19 @@ export function AboutSection({ onBookLino }: AboutSectionProps) {
                 <ShieldCheck className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                 <div>
                   <h5 className="font-semibold text-sm text-foreground">NDIS & Aged Care Ready</h5>
-                  <p className="text-xs text-muted-foreground mt-0.5">Police check, flu & covid vaccinated, fully insured public liability.</p>
+                  <p className="text-xs text-muted-foreground mt-0.5">
+                    Police check, flu & covid vaccinated, fully insured public liability.
+                  </p>
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-card border border-border flex items-start gap-3">
                 <Volume2 className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                 <div>
                   <h5 className="font-semibold text-sm text-foreground">All Equipment Supplied</h5>
-                  <p className="text-xs text-muted-foreground mt-0.5">State-of-the-art wireless microphones and acoustic sound tailored for sensitive ears.</p>
+                  <p className="text-xs text-muted-foreground mt-0.5">
+                    State-of-the-art wireless microphones and acoustic sound tailored for sensitive
+                    ears.
+                  </p>
                 </div>
               </div>
             </div>

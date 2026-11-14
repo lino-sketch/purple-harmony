@@ -94,10 +94,7 @@ function IndexPage() {
           </a>
 
           <nav className="hidden md:flex items-center gap-8 font-medium text-sm">
-            <a
-              href="#about"
-              className="text-foreground/80 hover:text-primary transition-colors"
-            >
+            <a href="#about" className="text-foreground/80 hover:text-primary transition-colors">
               About PHG
             </a>
             <a
@@ -106,10 +103,7 @@ function IndexPage() {
             >
               Our Entertainers
             </a>
-            <a
-              href="#services"
-              className="text-foreground/80 hover:text-primary transition-colors"
-            >
+            <a href="#services" className="text-foreground/80 hover:text-primary transition-colors">
               Programs & Packages
             </a>
             <a
@@ -118,10 +112,7 @@ function IndexPage() {
             >
               Testimonials
             </a>
-            <a
-              href="#benefits"
-              className="text-foreground/80 hover:text-primary transition-colors"
-            >
+            <a href="#benefits" className="text-foreground/80 hover:text-primary transition-colors">
               Why Music Matters
             </a>
           </nav>
@@ -157,7 +148,8 @@ function IndexPage() {
             Bring the Magic of Live Music to Your Facility
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base">
-            Inquire now to check available dates for Lino Ettia and our professional entertainer roster across Melbourne and regional Victoria.
+            Inquire now to check available dates for Lino Ettia and our professional entertainer
+            roster across Melbourne and regional Victoria.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
             <Button
@@ -190,22 +182,44 @@ function IndexPage() {
                 className="h-10 w-auto object-contain brightness-110"
               />
               <p className="text-xs text-purple-200/90 max-w-sm leading-relaxed">
-                Purple Harmony Group connects residential aged-care facilities and retirement communities with top-tier live entertainment, master singers, and uplifting music programs.
+                Purple Harmony Group connects residential aged-care facilities and retirement
+                communities with top-tier live entertainment, master singers, and uplifting music
+                programs.
               </p>
             </div>
 
             <div className="space-y-2">
-              <h5 className="text-xs font-bold uppercase tracking-wider text-purple-300">Quick Links</h5>
+              <h5 className="text-xs font-bold uppercase tracking-wider text-purple-300">
+                Quick Links
+              </h5>
               <ul className="text-xs text-purple-200 space-y-1.5">
-                <li><a href="#about" className="hover:text-white transition-colors">About Lino Ettia</a></li>
-                <li><a href="#entertainers" className="hover:text-white transition-colors">Our Entertainers</a></li>
-                <li><a href="#services" className="hover:text-white transition-colors">Programs & Packages</a></li>
-                <li><a href="#testimonials" className="hover:text-white transition-colors">Client Testimonials</a></li>
+                <li>
+                  <a href="#about" className="hover:text-white transition-colors">
+                    About Lino Ettia
+                  </a>
+                </li>
+                <li>
+                  <a href="#entertainers" className="hover:text-white transition-colors">
+                    Our Entertainers
+                  </a>
+                </li>
+                <li>
+                  <a href="#services" className="hover:text-white transition-colors">
+                    Programs & Packages
+                  </a>
+                </li>
+                <li>
+                  <a href="#testimonials" className="hover:text-white transition-colors">
+                    Client Testimonials
+                  </a>
+                </li>
               </ul>
             </div>
 
             <div className="space-y-2">
-              <h5 className="text-xs font-bold uppercase tracking-wider text-purple-300">Contact & Booking</h5>
+              <h5 className="text-xs font-bold uppercase tracking-wider text-purple-300">
+                Contact & Booking
+              </h5>
               <p className="text-xs text-purple-200">Melbourne & Regional Victoria, Australia</p>
               <p className="text-xs text-purple-200">Email: info@purpleharmonygroup.com.au</p>
               <div className="pt-2">
